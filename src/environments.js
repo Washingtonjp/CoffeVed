@@ -1,30 +1,30 @@
-const baseHome = 'https://cofffeved.netlify.app/home'
+const baseHome = 'https://coffevedback-production.up.railway.app/home'
 
-const baseProduct = 'https://cofffeved.netlify.app/produto'
+const baseProduct = 'https://coffevedback-production.up.railway.app/produto'
 
-const baseCategoria = 'https://cofffeved.netlify.app/categoria'
+const baseCategoria = 'https://coffevedback-production.up.railway.app/categoria'
 
-const baseEndereco = 'https://cofffeved.netlify.app/cliente/endereco'
+const baseEndereco = 'https://coffevedback-production.up.railway.app/cliente/endereco'
 
-const baseUf = 'https://cofffeved.netlify.app/uf'
+const baseUf = 'https://coffevedback-production.up.railway.app/uf'
 
-const baseCliente = 'https://cofffeved.netlify.app/cliente'
+const baseCliente = 'https://coffevedback-production.up.railway.app/cliente'
 
-const baseCartao = 'https://cofffeved.netlify.app/cliente/cartao'
+const baseCartao = 'https://coffevedback-production.up.railway.app/cliente/cartao'
 
-const baseNovidades = 'https://cofffeved.netlify.app/novidades'
+const baseNovidades = 'https://coffevedback-production.up.railway.app/novidades'
 
-const baseFrete = 'https://cofffeved.netlify.app/frete'
+const baseFrete = 'https://coffevedback-production.up.railway.app/frete'
 
-const baseBandeira = 'https://cofffeved.netlify.app/bandeira'
+const baseBandeira = 'https://coffevedback-production.up.railway.app/bandeira'
 
-const baseCupom = 'https://cofffeved.netlify.app/cupom'
+const baseCupom = 'https://coffevedback-production.up.railway.app/cupom'
 
-const basePedido = 'https://cofffeved.netlify.app/pedido'
+const basePedido = 'https://coffevedback-production.up.railway.app/pedido'
 
-const baseItemPedido = 'https://cofffeved.netlify.app/itemPedido' 
+const baseItemPedido = 'https://coffevedback-production.up.railway.app/itemPedido' 
 
-const baseLogin = 'https://cofffeved.netlify.app/' 
+const baseLogin = 'https://coffevedback-production.up.railway.app/' 
 
 
 

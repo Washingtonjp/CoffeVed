@@ -14,7 +14,7 @@ const [states, setStates] = useState([])
 
     
     const getStates = () => {
-        axios.get('https://cofffeved.netlify.app/states')
+        axios.get('https://coffevedback-production.up.railway.app/states')
             .then((response) => {
                 setStates(response.data)
             })
