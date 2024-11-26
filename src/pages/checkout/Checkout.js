@@ -117,7 +117,7 @@ function Checkout() {
     }
     //cadastro do boleto como pagamento
     const postBoleto = (idpedido) => {
-        axios.post(`http://localhost:8080/pagamento/boleto/${idpedido}`, boletoModel)
+        axios.post(`https://cofffeved.netlify.app/pagamento/boleto/${idpedido}`, boletoModel)
             .then(() => {
             })
             .catch((error) => {
@@ -128,7 +128,7 @@ function Checkout() {
 
     const postCartao = async (idpedido) => {
         setCard({...cardModel, pedido: idpedido})
-        axios.post("http://localhost:8080/historico/novo", cardModel)
+        axios.post("https://cofffeved.netlify.app/historico/novo", cardModel)
             .then(() => {
                 console.log("cadastro de cartao sucesso")
             })

@@ -14,7 +14,7 @@ const [states, setStates] = useState([])
 
     
     const getStates = () => {
-        axios.get('http://localhost:8080/states')
+        axios.get('https://cofffeved.netlify.app/states')
             .then((response) => {
                 setStates(response.data)
             })

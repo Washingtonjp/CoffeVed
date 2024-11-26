@@ -72,7 +72,7 @@ function OrderDetails() {
 
 
     function getDetailsCard() {
-        axios.get(`http://localhost:8080/historico/${order}/detalhes`)
+        axios.get(`https://cofffeved.netlify.app/historico/${order}/detalhes`)
             .then((response) => {
                 setDetailsCard(response.data)
                 console.log(response.data)
