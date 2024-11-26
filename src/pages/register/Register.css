@@ -1,0 +1,18 @@
+.link{
+    color: rgb(26, 14, 131);
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+} 
+
+
+.body-success{
+	color: green
+} 
+
+
+.body-error{
+	color:#000;
+}
