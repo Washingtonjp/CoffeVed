@@ -28,9 +28,6 @@ function CustomerMenu() {
                         <Link to="/address" className="list-group-item list-group-item-action">
                             <i className="bi-house-door fs-6"></i> Meus Endereços
                         </Link>
-                        <Link to="/favorites" className="list-group-item list-group-item-action">
-                            <i className="bi-truck fs-6"></i> Meus Favoritos
-                        </Link>
                         <Link to="/paymentCards" className="list-group-item list-group-item-action">
                             <i className="bi-heart fs-6"></i> Meus Cartões
                         </Link>
@@ -73,9 +70,6 @@ function CustomerMenu() {
                                         </Link>
                                         <Link to="/address">
                                             <li className="li-item-menuLateral">Meus Endereços</li>
-                                        </Link>
-                                        <Link to="/favorites">
-                                            <li className="li-item-menuLateral">Meus Favoritos</li>
                                         </Link>
                                         <Link to="/paymentCards">
                                             <li className="li-item-menuLateral">Meus Cartões</li>

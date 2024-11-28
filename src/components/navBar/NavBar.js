@@ -16,10 +16,10 @@ function NavBar(props) {
                     <Nav.Link className="nav-hover"><Link to="/category/novidade">  Novidades</Link></Nav.Link>
                     <Nav.Link className="nav-hover"><Link to="/plansVed">   Planos </Link> </Nav.Link>
                     <NavDropdown title="Categorias" className="nav-hover">
-                        <NavDropdown.Item > <Link to="/category/1"> <p className="font"> Frutas </p> </Link> </NavDropdown.Item>
-                        <NavDropdown.Item > <Link to="/category/2"> <p className="font">  Salgados  </p> </Link> </NavDropdown.Item>
-                        <NavDropdown.Item > <Link to="/category/3"> <p className="font"> Doces </p> </Link> </NavDropdown.Item>
-                        <NavDropdown.Item > <Link to="/category/4"> <p className="font"> Cafes </p> </Link> </NavDropdown.Item>
+                    <NavDropdown.Item  style={{ zIndex: 1050 }}><Link to="/category/1"> <p className="font"> Frutas </p> </Link> </NavDropdown.Item>
+                    <NavDropdown.Item  style={{ zIndex: 1050 }}> <Link to="/category/2"> <p className="font">  Salgados  </p> </Link> </NavDropdown.Item>
+                    <NavDropdown.Item  style={{ zIndex: 1050 }}><Link to="/category/3"> <p className="font"> Doces </p> </Link> </NavDropdown.Item>
+                    <NavDropdown.Item  style={{ zIndex: 1050 }}> <Link to="/category/4"> <p className="font"> Cafes </p> </Link> </NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/aboutUS" className="nav-hover">Sobre Nós</Nav.Link>
                 </Navbar>
